@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<svg height="200" version="1.0" width="200" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#000" stroke-width="2px">
+<circle cx="40" cy="160" r="20" />
+<circle cx="60" cy="100" r="20" />
+<circle cx="140" cy="100" r="20" />
+<circle cx="160" cy="40" r="20" />
+<path d="M80 71A7,30 0 1,1 75 100 M153 85 A11 62 0 1,1 153 115" stroke-dasharray="6 4"/>
+<path d="M77 78 l0 -5 l4 1 Z L80 71" />
+<path d="M160 41 l0 9 -5 -1Z L140 100" stroke="#00e" />
+<path d="M140 100 l-9 2 v-4 Z L60 100" stroke="#090" />
+<path d="M60 101 l0 9 -5 -1Z L40 160" stroke="#e00" />
+</g>
+<text font-family="DejaVu Serif" font-weight="bold" font-size="18px">
+<tspan x="120" y="70" fill="#00e">b<tspan dy="5" font-size="12px">3</tspan></tspan>
+<tspan x="100" y="120" fill="#090">b<tspan dy="5" font-size="12px">2</tspan></tspan>
+<tspan x="55" y="140" fill="#e00">b<tspan dy="5" font-size="12px">1</tspan></tspan>
+</text><text x="70" y="60" fill="#000" font-family="DejaVu Sans" font-size="20px">φ</text>
+</svg>
