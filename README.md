@@ -2,6 +2,8 @@
 
 This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bioinformatics tools. It integrates multiple functionalities including HMM analysis, clustering, and machine learning (ML)/deep neural network (DNN)-based enzyme classification.
 
+![GUI Screenshot](Toolkit.png)
+
 ---
 
 ## 🧰 Features
