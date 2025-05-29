@@ -6,9 +6,9 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
 
 ---
 
-## 🧰 Features
+## Features
 
-### 🧬 HMM Analysis
+### HMM Analysis
 
 - Browse and select input and target sequence files.
 - Choose alignment method: Clustal Omega, ClustalW, or MAFFT.
@@ -21,7 +21,7 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
   - Result: `output_table.txt`
 - Users can visualize the top N hits and save them for downstream analysis.
 
-📁 **Example files**: `combined_laccase.fasta`, `query_input.fasta`
+**Example files**: `combined_laccase.fasta`, `query_input.fasta`
 
 ---
 
@@ -32,13 +32,13 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
 - Clustering methods: Spectral, K-Means, GMM.
 - Highlight specific nodes (e.g., top HMM hits).
 
-📁 **Example file**: `tmalign_matrix`
+**Example file**: `tmalign_matrix`
 
 ---
 
-### 🤖 Machine Learning & Neural Network Classifier
+### Machine Learning & Neural Network Classifier
 
-#### 🔹 ML Pipeline
+#### ML Pipeline
 - Select training and independent FASTA files.
 - Executes `ML_model.py`:
   - Feature extraction
@@ -47,22 +47,22 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
   - Saves predictions and confidence scores
 - Visualize results with `ML_plotting.py`
 
-📁 **Example input**: `lac_perox.fasta`, `independent_lac_perox.fasta`
+**Example input**: `lac_perox.fasta`, `independent_lac_perox.fasta`
 
-#### 🔹 Feature Descriptors
+#### Feature Descriptors
 - Amino acid composition & physicochemical properties
 - G-gap dipeptide composition
 - K-spaced amino acid pairs
 - ESM (Evolutionary Scale Modeling) embeddings
 - Structural angles (phi/psi) from AlphaFold models
 
-#### 🔹 Evaluation
+#### Evaluation
 - Uses 5-fold cross-validation
 - Metrics: Accuracy, Precision, Recall, F1-score
 
 ---
 
-### 🧠 Neural Network Model (NN)
+### Neural Network Model (NN)
 
 - Uses **ESM2 embeddings** and a deep feedforward neural network.
 - Three hidden layers (256 → 128 → 64), dropout (40%), L2 regularization.
@@ -75,7 +75,7 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
 
 ---
 
-### 🧱 Structure-Based Classification
+### Structure-Based Classification
 
 - After AlphaFold modeling, extract **phi (φ)** and **psi (ψ)** torsional angles.
 - Convert to 360-bin probability distributions.
@@ -86,11 +86,11 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
   4. Evaluate with Accuracy, F1-score, AUC, Confusion Matrix, ROC
   5. Predict independent dataset
 
-📁 **Example files**: `struct_indep.csv`, `struct_final.csv`
+**Example files**: `struct_indep.csv`, `struct_final.csv`
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the Repository
 ```bash
