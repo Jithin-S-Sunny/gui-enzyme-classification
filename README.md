@@ -25,7 +25,7 @@ This is a **Tkinter-based GUI toolkit** that serves as a launcher for various bi
 
 ---
 
-### 🧪 Clustering Module
+### Clustering Module
 
 - Upload a similarity matrix (e.g., from TM-align).
 - Dimensionality reduction: MDS, PCA, or t-SNE.
